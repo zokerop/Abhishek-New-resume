@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .left-panel {
+    width: 27%;
+    background-color: #484444;
+    padding: 0.7cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #bebebe;
+  }
+  
+  .right-panel {
+    width: 73%;
+    padding: 0.7cm;
+  }
+  
+  h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 300;
+    font-size: 1.2cm;
+    transform:scale(1,1.15);
+    margin-bottom: 0.2cm;
+    margin-top: 0.2cm;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  h3 {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .work-experience, .education {
+    margin-bottom: 1cm;
+  }
+  
+  .work-experience h3, .education h3 {
+    font-weight: bold;
+    margin-bottom: 0.2cm;
+  }
+  
+  .work-experience p, .education p {
+    margin-bottom: 0.2cm;
+  }
+  
+  .work-experience ul {
+    padding-left: 0.5cm;
+    list-style-type: disc;
+  }
+  
